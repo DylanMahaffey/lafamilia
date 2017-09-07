@@ -1,3 +1,7 @@
+@font-face {
+    font-family: la;
+    src: url("fonts/College Block 2.0 demo.otf") format("opentype");
+}
 html{
     padding: 0;
     margin: 0;
@@ -45,16 +49,16 @@ h1 span {
     top: 0;
     transform-origin: bottom center;
 }
-.char1 { transform: rotate(6deg); }
-.char2 { transform: rotate(12deg); }
-.char3 { transform: rotate(18deg); float: left;}
-.char4 { transform: rotate(24deg); }
-.char5 { transform: rotate(30deg); }
-.char6 { transform: rotate(36deg); }
-.char7 { transform: rotate(42deg); }
-.char8 { transform: rotate(48deg); }
-.char9 { transform: rotate(54deg); }
-.char10 { transform: rotate(60deg); }
+.char1 { transform: rotate(6deg); font-family: "la"; font-size: 90px;}
+.char2 { transform: rotate(12deg); font-family: "la"; font-size: 90px;}
+.char3 { transform: rotate(16deg); height: 500px;}
+.char4 { transform: rotate(22deg); }
+.char5 { transform: rotate(28deg); }
+.char6 { transform: rotate(34deg); }
+.char7 { transform: rotate(40deg); }
+.char8 { transform: rotate(46deg); }
+.char9 { transform: rotate(52deg); }
+.char10 { transform: rotate(58deg); }
 
 .img-display{
     width: 100%;
